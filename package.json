@@ -1,0 +1,36 @@
+{
+  "name": "express_rest_api",
+  "version": "1.0.0",
+  "description": "Learning Express By Creating an REST API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rimraf dist && npx tsc",
+    "test": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hussain760/Express-Rest-API.git"
+  },
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "author": "Hussain Murtaza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hussain760/Express-Rest-API/issues"
+  },
+  "homepage": "https://github.com/Hussain760/Express-Rest-API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "rimraf": "^5.0.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.20",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
