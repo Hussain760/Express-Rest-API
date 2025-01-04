@@ -44,7 +44,7 @@ This project implements a CRUD (Create, Read, Update, Delete) operation API usin
 
 1. Start the server:
    ```bash
-   npm start
+   npm run dev
    ```
 2. Access the API endpoints using tools like Postman or curl.
 
